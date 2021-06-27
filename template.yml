@@ -59,12 +59,12 @@ Resources:
              Effect: Allow
              Action:
                 - s3:ListBucket
-             Resource: 'arn:aws:s3:::simple-network-crypto-bucket-a'
+             Resource: 'arn:aws:s3:::simple-network-crypto-bucket-b'
            - Sid: S3GetCryptoPolicy
              Effect: Allow
              Action:
                 - s3:GetObject
-             Resource: 'arn:aws:s3:::simple-network-crypto-bucket-a/*'
+             Resource: 'arn:aws:s3:::simple-network-crypto-bucket-b/*'
            - Sid: CognitoPolicy
              Effect: Allow
              Action:
